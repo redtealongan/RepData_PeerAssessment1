@@ -183,11 +183,3 @@ qplot(interval, steps, data=data_steps_interval, geom=c("line"), xlab="Interval"
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-10-1.png) 
-
-```r
-plot(data_steps_interval$interval, data_steps_interval$steps, type='l',  
-     main="Average number of steps averaged over all days", xlab="Interval", 
-     ylab="Average number of steps")
-```
-
-![](PA1_template_files/figure-html/unnamed-chunk-10-2.png) 
